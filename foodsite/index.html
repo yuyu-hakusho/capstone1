@@ -6,32 +6,75 @@
     <meta name="description" content="Filter types of food through process of elimination" />
     <title>Filter food options like never before</title>
     <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="base.css" />
+    <script src="/js/bootstrap.bundle.js"></script>
   </head>
   <body>
     <header>
-        <img id="homepage-food" src="https://www.washingtonian.com/wp-content/uploads/2022/08/Le-Fantome.jpg">
-        <nav>
-            <ul>
-                <li><a href="" accesskey="f">Food Options</a></li> 
-                <li><a href="" accesskey="c">Contact Us</a></li>
-                <li><a href="" accesskey="l">Login/Registration</a></li>
-            </ul>
-        </nav>
+        <div class="jumbotron jumbotron-detail-food-spread">
+        </div>
+        <!--fix image to be not so tall-->
+        
+    
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-primary">
+                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html" accesskey="f">Food Options</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" accesskey="c">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html" accesskey="l">Login/Registration</a>
+                            </li>
+                        </ul>
+                    
+                </div>
+            </nav>
+        </div>
+                
 
     </header>
     <main>
-        <div id="placeholder">
-            <h1>Something about food</h1>
-            
-        </div>
-        <div id="about">
-            <h2>Who's this for</h2>
+        <div class="container">
+            <h1 class="fw-bold fst-italic">Something about food</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 class="text-center fw-light my-3">Who's this for</h3>
+                </div>
+                <div class="col-sm-8">
+                    <p>[Copy about who this website is for]</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    <p>[Copy about what's wrong today]
+                        <ul>
+                            <li>placeholder 1</li>
+                            <li>placeholder 2</li>
+                            <li>placeholder 3</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-sm-5"> <!--how do I make it so that this appears above the small copy when it goes below the small size-->
+                    <h3 class="text-center fw-light">What's wrong with filtering food today</h3>
+                </div>
+            </div>
         </div>
 
-        <div id="filter-limitations">
-            <h2>What's wrong with existing filters</h2>
-        </div>
+        
+
+
+
     </main>
     <footer>
 
