@@ -1,38 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+
+}
 
 header {
-    background-color:rgb(195, 225, 252);
+    background-color:rgb(248, 248, 238);;
 }
+
+body {
+    background-color:rgb(248, 248, 238);;
+}
+
+footer {
+    margin-top: 50px;
+}
+
 .bg-primary {
-    background-color:rgb(195, 225, 252) !important;
+    background-color:rgb(248, 248, 238) !important;
 }
 
-.jumbotron-detail-food-spread {
-    background: url(/images/international_food.jpg) no-repeat fixed;
+.navbar-toggler {
+    margin-left: 15px;
 }
-
-.jumbotron {
-    height: 20vh;
-    background-size: cover;
-}
-    /*
-    width: 100%;
-    height: 50px;
-    background-color: teal;
-    display: flex;
-    justify-content: space-between; /*spreads items out evenly*/
-    /*align-items: center;
-    position: fixed; /*will remain in it's position as you scroll*/
-    /*top: 0; /*puts the header at the top of the page*/
-  
-nav {
-    display: flex;
-    justify-content: space-between; /*spreads items out evenly*/
-}
-
-h1 {
-    padding-top: 50px;
-    color: black;
-    text-align: center;
-  }
-  
 

@@ -1,0 +1,61 @@
+
+.jumbotron-detail-food-spread {
+    background: url(/images/international_food_2.jpg) no-repeat fixed;
+}
+
+.jumbotron {
+    height: 75vh;
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1 {
+    padding: 15px;
+    /* color: black; */
+
+  }
+
+.big-who-box {
+
+    background-color: rgba(3, 179, 179, 0.534);
+    margin-bottom: 30px;
+     /*Q: should I be having a fixed height? Is there a way to do breaks?*/
+
+}
+
+#who-question {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 15px 15px 0 15px;
+}
+
+.intro-text {
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+}
+
+.who-answer-box {
+    margin: 5px 30px 0 30px;
+}
+
+.who-answer-copy {
+    margin: 25px;
+    padding: 15px;
+    font-size: .9rem;
+    color: rgb(248, 248, 238);
+}
+.how-this-works {
+    background-color: rgba(3, 119, 119, 0.534);
+}
+
+.how-this-works-copy {
+    background-color: rgb(248, 248, 238);
+    display: flex;
+    align-items: center;
+    padding: 30px 20px 30px 50px;
+    
+
+}

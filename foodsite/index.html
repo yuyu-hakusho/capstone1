@@ -3,32 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Filter types of food through process of elimination" />
-    <title>Filter food options like never before</title>
+    <meta name="description" content="Finding food options to decide what to eat" />
+    <title>Food inspiration for the soul</title>
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="index.css" />
     <script src="/js/bootstrap.bundle.js"></script>
   </head>
   <body>
-    <header>
-        <div class="jumbotron jumbotron-detail-food-spread">
-        </div>
-        <!--fix image to be not so tall-->
-        
-    
+    <header>       
         <div class="container">
-            <nav class="navbar navbar-expand-sm bg-primary">
-                
+            <nav class="navbar navbar-expand-sm bg-primary fixed-top">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <!--make home nav box a different color-->
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="products.html" accesskey="f">Food Options</a>
+                                <a class="nav-link" href="products.html" accesskey="i">Inspiration</a>
                             </li> 
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html" accesskey="c">Contact Us</a>
@@ -41,43 +37,60 @@
                 </div>
             </nav>
         </div>
-                
-
     </header>
     <main>
-        <div class="container">
-            <h1 class="fw-bold fst-italic">Something about food</h1>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3 class="text-center fw-light my-3">Who's this for</h3>
-                </div>
-                <div class="col-sm-8">
-                    <p>[Copy about who this website is for]</p>
+        <!--how not to get this to repeat?-->
+        <!-- <div class="container-fluid p-5 text-center bg-image mask" style="background-image: url('/images/international_food_2.jpg'); background-color: rgba(0, 0, 0, 0.6); margin-top: 58px;"> -->
+            <!-- <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);"></div> -->
+                <!-- <div class="d-flex justify-content-center align-items-center">
+                    <div class="text-white">
+                        <h1 class="fw-bold fst-italic mb-3">Choosing what to eat has never been easier</h1>
+                        <a class="btn btn-outline-light btn-lg" href="products.html" role="button">Get started</a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-7">
-                    <p>[Copy about what's wrong today]
-                        <ul>
-                            <li>placeholder 1</li>
-                            <li>placeholder 2</li>
-                            <li>placeholder 3</li>
-                        </ul>
-                    </p>
+         </div> -->
+        <div>
+        <!--fix contrast-->
+            <div class="jumbotron jumbotron-detail-food-spread text-center">
+                 <div class="d-flex justify-content-center align-items-center intro-text">
+                    <div class="text-white">
+                        <h1 class="fw-bold fst-italic mb-2">Choosing what to eat has never been easier</h1>
+                        <a class="btn btn-outline-light btn-lg" href="products.html" role="button">Get started</a>
+                    </div>
                 </div>
-                <div class="col-sm-5"> <!--how do I make it so that this appears above the small copy when it goes below the small size-->
-                    <h3 class="text-center fw-light">What's wrong with filtering food today</h3>
+            </div>
+        </div>
+        <div class="big-who-box d-flex align-items-center justify-content-center">
+            <section role="region" aria-labelledby="who-question">
+                <h6 class="text-center text-white" id="who-question">Who this is for</h6>
+                <div class="who-answer-box">
+                    <h2 class="text-center text-white">Indecisive people who want to eat something but can't decide what to eat
+                    </h2>
+                </div>
+                <div class="who-answer-copy text-center text-white">
+                    <p>Have you ever had moments where you're not craving anything in particular to eat and you can't decide what you want? Or you're trying to decide on a place to get food with friends and you can't come to a consensus on what to get? If so, you'll know it can take <em>(too much)</em> time to search Google, Yelp, Uber eats, Instagram, etc. <br/>If you're tired with wasting time and feeling frustrated with deciding on what to eat, then this site is for you.</p>
+                </div>
+            </section>
+        </div>
+        <!-- how to get this to stack on mobile -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-5 order-2 how-this-works"> <!--how do I make it so that this appears above the small copy when it goes below the small size-->
+                    <h3 class="text-center fw-light my-5">How this works</h3>
+                </div>
+                <div class="col-sm-7 order-1 how-this-works-copy">
+                    <p>We've currated a wide list of foods in one spot so you can quickly and seamlessly find inspiration and/or narrow down options to make your decision.
+                    </p>
                 </div>
             </div>
         </div>
 
-        
-
-
+    <!--Nice to have: add a carosel?-->
 
     </main>
     <footer>
-
+        <!--add a footer-->
     </footer>
   </body>
 </html>
