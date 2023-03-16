@@ -40,12 +40,48 @@
         </header>
         
         <main>
-            <section class="guide">
-            <!--placeholder for table-->
+            <section role="region" aria-labelledby="guide-title" class="guide">
+                <h2 id="guide-title">Our Unofficial Guide to Food</h2>
+                <div class="table-responsive ">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="cuisine-column">Cuisine</th>
+                            <th scope="col" >Main Ingredients</th>
+                            <th scope="col">Flavor Profile</th>
+                            <th scope="col">General Heaviness Level</th>
+                            <th scope="col">Drawbacks</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><img src="/images/korea-flag-sm.png" class="flag-icon" alt="South Korean flag"/><a href="#korean">Korean</a></th>
+                            <td>meat, veggies, tofu, rice, noodles</td>
+                            <td>savory, spicy</td>
+                            <td>medium-high</td>
+                            <td>high-sodium</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="/images/japan-flag-sm.png" class="flag-icon" alt="Japanese flag"/><a href="#japanese">Japanese</a></th>
+                            <td>meat, veggies, tofu, rice, noodles</td>
+                            <td>savory</td>
+                            <td>light-medium</td>
+                            <td>light in taste</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="/images/america-flag-sm.png" class="flag-icon" alt="American flag"/><a href="#american">American</a></th>
+                            <td>meat, bread, cheese</td>
+                            <td>savory</td>
+                            <td>heavy</td>
+                            <td>not nutritious</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
             </section>
 
-            <section class="korean">
-                <h2>Korean</h2>
+            <section role="region" aria-labelledby="korean" class="korean">
+                <h2 class="food-header" id="korean">Korean</h2>
                 <div class="row row-cols-2 row-cols-lg-6 row-cols-md-4 row-cols-sm-3 g-4">
                     <div class="col">
                     <div class="card h-100">
@@ -110,8 +146,8 @@
                 </div>
             </section>
 
-            <section class="japanese">
-                <h2>Japanese</h2>
+            <section role="region" aria-labelledby="japanese" class="japanese">
+                <h2 class="food-header" id="japanese">Japanese</h2>
                 <div class="row row-cols-2 row-cols-lg-6 row-cols-md-4 row-cols-sm-3 g-4">
                     <div class="col">
                     <div class="card h-100">
@@ -215,9 +251,9 @@
                     </div>
                 </div>
             </section>
-            <section class="american">
-                <h2>American</h2>
-                <div class="row row-cols-2 row-cols-lg-6 row-cols-md-4 row-cols-sm-3 g-4">
+            <section role="region" aria-labelledby="american" class="american">
+                <h2 class="food-header" id="american">American</h2>
+                <div class="row row-cols-2 row-cols-lg-6 row-cols-md-4 row-cols-sm-3 g-4 gallery">
                     <div class="col">
                     <div class="card h-100">
                         <img src="/images/American/to-use/american-bbq-sm.png" class="card-img-top" alt="Barbeque">

@@ -1,17 +1,81 @@
 
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth; /*makes the scrolling behavior more smooth*/
+    }
+  }
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/images/plate.jpg');
-    background-repeat: repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/images/plate.jpg') fixed;
+    background-repeat: repeat; 
     min-height: 100vh; 
     background-size: contain;
 }
 
+h2{
+    padding: 1rem 0;
+}
 h6 {
     font-style: italic;
 }
 
+.guide {
+    margin: 6rem auto 3rem auto;
+    width: 75%;
+    max-width: 80rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.guide h2 {
+    text-align: center;
+    background-color: rgb(194, 194, 252);
+    border-radius: 10px 10px 0 0;
+    border-top: 2px solid rgb(118, 118, 129);
+    border-right: 2px solid rgb(118, 118, 129);
+    border-left: 2px solid rgb(118, 118, 129);
+    border-bottom: 0.5px solid rgb(164, 164, 167);
+}
+
+.guide a {
+    color: rgb(144, 144, 248);
+    cursor: pointer;  
+}
+
+.guide a:hover {
+    color: rgb(0, 195, 255);
+    cursor: pointer;
+}
+
+.table {
+    background-color: rgb(242, 242, 250);
+    border-radius: 0 0 10px 10px;
+    border-right: 2px solid rgb(118, 118, 129);
+    border-left: 2px solid rgb(118, 118, 129);
+}
+
+.cuisine-column {
+    width: 125px;
+}
+
+.flag-icon {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.food-header {
+    width: 200px;
+    background-color: lavender;
+    margin-bottom: 1rem;
+    padding-left: 1rem; 
+    border-radius: 0 10px 0 0;
+    border: 2px solid rgb(141, 141, 141);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
 .korean {
-    margin-top: 6rem;
+    margin-top: 3rem;
     padding: 0 50px;
 }
 
@@ -29,28 +93,8 @@ h6 {
     text-transform: capitalize;
 }
 
-/* .gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 4rem auto 0 auto;
-    padding: 20px 10px;
-  }
-  
-  .gallery img {
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
+.card {
+    border: .5px solid rgb(141, 141, 141);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  }
-  
-  .gallery::after {
-    content: "";
-    width: 350px;
-  } */
+}
