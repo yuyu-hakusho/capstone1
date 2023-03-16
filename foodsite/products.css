@@ -6,9 +6,22 @@ body {
     background-size: contain;
 }
 
+h6 {
+    font-style: italic;
+}
+
 .korean {
     margin-top: 6rem;
     padding: 0 50px;
+}
+
+.japanese {
+    margin: 3rem 0;
+    padding: 0 50px;
+}
+
+.card-title {
+    text-transform: capitalize;
 }
 
 /* .gallery {
