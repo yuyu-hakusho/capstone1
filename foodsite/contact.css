@@ -5,14 +5,22 @@ body {
     background-size: contain;
 }
 
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    font-weight: normal;
+    margin-top: 1rem;
+}
+
 .container {
-    max-width: 500px;
     margin: 6rem 0  0 2rem; 
-    position: fixed;
 }
 
 .card {
     border-radius: 1rem;
+    max-width: 500px;
 }
 
 .card-body {
@@ -24,13 +32,13 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.login a {
+.submit a {
     background-color: #000000;
     border-color: #000000;
     color: rgb(248, 248, 238);
 }
 
-.login a:hover {
+.submit a:hover {
     background-color: rgb(117, 211, 248);
     border-color: rgb(3, 125, 173); 
     color: rgb(73, 73, 73);
