@@ -11,13 +11,14 @@ h5 {
     margin-top: 1rem;
 }
 .container {
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 6rem 0  0 2rem; 
-    position: fixed;
+    /* position: fixed; */
 }
 
 .card {
     border-radius: 1rem;
+    max-width: 500px;
 }
 
 .login a {
