@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('/images/garden-sm.png') fixed;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/garden-sm.png') fixed;
     background-repeat: repeat; 
     min-width: 100vw; 
     background-size: contain;
@@ -34,9 +34,6 @@ body {
     justify-content: center;
 }
 
-/* .form-label {
-    font-weight: semibold;
-} */
 
 .form-check {
     display: flex;

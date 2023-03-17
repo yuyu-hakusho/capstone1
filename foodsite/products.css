@@ -6,7 +6,7 @@
   }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/images/plate.jpg') fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/plate.jpg') fixed;
     background-repeat: repeat; 
     min-height: 100vh; 
     background-size: contain;

@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/images/spices-sm.png') fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../images/spices-sm.png') fixed;
     background-repeat: repeat; 
     min-height: 100vh; 
     background-size: contain;
