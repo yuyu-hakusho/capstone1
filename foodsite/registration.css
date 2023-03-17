@@ -1,0 +1,20 @@
+body {
+    background: url('/images/spices.png') fixed;
+    background-repeat: repeat; 
+    min-height: 100vh; 
+    background-size: contain;
+}
+
+/* .hero {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.hero > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+} */

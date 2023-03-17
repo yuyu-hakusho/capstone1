@@ -1,0 +1,22 @@
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/images/spices-sm.png') fixed;
+    background-repeat: repeat; 
+    min-height: 100vh; 
+    background-size: contain;
+}
+
+.container {
+    max-width: 500px;
+    margin: 6rem 0  0 2rem; 
+    position: fixed;
+}
+
+.card {
+    /* margin-top: 6rem; */
+    border-radius: 1rem;
+}
+
+.card-body {
+    padding: 3rem;
+} 

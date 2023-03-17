@@ -4,6 +4,7 @@
       scroll-behavior: smooth; /*makes the scrolling behavior more smooth*/
     }
   }
+
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/images/plate.jpg') fixed;
     background-repeat: repeat; 
@@ -11,7 +12,7 @@ body {
     background-size: contain;
 }
 
-h2{
+h2 {
     padding: 1rem 0;
 }
 h6 {
@@ -106,16 +107,6 @@ h6 {
 
 }
 
-/* .btn-primary {
-    width: 110px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: bold; 
-    margin: 20px 0 10px 10px;
-    display: inline-block;
-    text-align: center;
-} */
-/*how do I make the button centered?*/
 .card-footer {
     border: none;
     background-color: white;
