@@ -20,3 +20,8 @@ body {
 .card-body {
     padding: 3rem;
 } 
+
+.form-label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}

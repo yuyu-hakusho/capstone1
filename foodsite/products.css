@@ -32,7 +32,7 @@ h6 {
 .guide h2 {
     text-align: center;
     color: rgb(248, 248, 238);
-    background-color: rgba(3, 119, 119);
+    background-color: rgba(116, 178, 174,0.98); 
     border-radius: 10px 10px 0 0;
     border-top: 2px solid rgb(118, 118, 129);
     border-right: 2px solid rgb(118, 118, 129);
@@ -71,7 +71,7 @@ h6 {
 .food-header {
     /* width: 200px; */
     /* background-color: lavender; */
-    background-color: rgba(5, 207, 207, 0.9);
+    background-color: rgba(116, 210, 206, 0.9);
     margin-bottom: 1rem;
     padding-left: 1rem; 
     border-radius: 0 10px 0 0;
@@ -114,16 +114,15 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .card a {
-    background-color: rgb(117, 211, 248);
-    border-color: rgb(3, 125, 173); 
-    color: rgb(73, 73, 73);
+    background-color: #4391c9;
+    border-color: #2683C6;
+    color: rgb(248, 248, 238);
 }
 
 .card a:hover {
-
-    background-color: #2683C6;
-    border-color: #2683C6;
-    color: rgb(248, 248, 238);
- 
+    background-color: rgb(117, 211, 248);
+    border-color: rgb(3, 125, 173); 
+    color: rgb(73, 73, 73);
 }

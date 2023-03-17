@@ -43,13 +43,83 @@
     </header>
 
     <main>
-        <!-- <div class="hero">
-            <img src="/images/spices.png" alt="spices and herbs on a dark table">
-            <div class="hero-content-wrapper">
-                <h1>place holder</h1>
-            </div>
+        <!-- <div class="contact-box">
+            <form>
+                <section role="region" arialabelledby="contact-us">
+                    <h1 id-"contact-us">Contact Us</h1>
+                    <div class="contact-info">
+                        <label for="first-name">First Name: </label><br>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="contact-info">
+                        <label for="last-name">Last Name: </label><br>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div class="contact-info">
+                        <label for="email-address">Email: </label><br>
+                        <input type="email" name="email-address" id="email-address">
+                    </div>
+                    <div class="contact-info">
+                        <label for="password">Password: </label><br>
+                        <input type="password" name="password" id="password">
+                    </div>
+                </section>
+            </form>
         </div> -->
 
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row name">
+                    <div class="col-lg-12">
+                    <h1 class="sign-up">Sign up now</h1>
+                    <form>
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-outline">
+                                    <input type="text" id="first-name" class="form-control" required />
+                                    <label class="form-label fw-semibold" for="first-name">First name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-outline">
+                                    <input type="text" id="last-name" class="form-control" required />
+                                    <label class="form-label fw-semibold" for="last-name">Last name</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline">
+                            <input type="email" id="email-address" class="form-control" required/>
+                            <label class="form-label fw-semibold" for="email-address">Email address</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline">
+                            <input type="password" id="password" class="form-control" required/>
+                            <label class="form-label fw-semibold" for="password">Password</label>
+                        </div>
+
+                        <!-- Confirm password -->
+                        <div class="form-outline">
+                            <input type="password" id="password" class="form-control" required/>
+                            <label class="form-label fw-semibold" for="password">Confirm password</label>
+                        </div>
+
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="newsletter" checked />
+                            <label class="form-check-label" for="newsletter">Subscribe to our newsletter</label>
+                        </div>
+
+                        <!-- Submit button -->
+                        <a class="btn btn-primary">Sign up</a>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </main>
 </body>
