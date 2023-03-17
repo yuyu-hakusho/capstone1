@@ -34,9 +34,9 @@ body {
     justify-content: center;
 }
 
-.form-label {
+/* .form-label {
     font-weight: semibold;
-}
+} */
 
 .form-check {
     display: flex;
