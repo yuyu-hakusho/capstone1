@@ -6,6 +6,10 @@ body {
     background-size: contain;
 }
 
+h5 {
+    font-weight: normal;
+    margin-top: 1rem;
+}
 .container {
     max-width: 500px;
     margin: 6rem 0  0 2rem; 
@@ -14,7 +18,28 @@ body {
 
 .card {
     border-radius: 1rem;
-    
+}
+
+.login a {
+    background-color: #000000;
+    border-color: #000000;
+    color: rgb(248, 248, 238);
+}
+
+.login a:hover {
+    background-color: rgb(117, 211, 248);
+    border-color: rgb(3, 125, 173); 
+    color: rgb(73, 73, 73);
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 125px;
+    max-width: 125px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -26,3 +51,13 @@ body {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
+
+.register-option {
+    margin-top: 0.25rem;
+}
+
+.register-option a {
+    color: rgba(3, 119, 119);
+    cursor: pointer; 
+}
+
