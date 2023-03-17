@@ -46,7 +46,7 @@
     </header>
 
     <main>
-        <div class="container">
+        <div class="container d-flex justify-content-end">
             <div class="card">
                 <div class="card-body">
                     <form>
@@ -60,6 +60,16 @@
                             <div class="contact-info">
                                 <label class="form-label" for="email-address">Email</label><br>
                                 <input type="email" name="email-address" id="email-address" class="form-control">
+                            </div>
+                            <div class="contact-info">
+                                <label class="form-label" for="cusine-category">Cuisine</label><br>
+                                <select class="form-control" name="cuisine" id="cusine-category" required>
+                                    <option value> Select an option</option>
+                                    <option value="korean">Korean</option>
+                                    <option value="japanese">Japanese</option>
+                                    <option value="american">American</option>
+                                    <option value="other">Other</option>
+                                </select>
                             </div>
                             <div class="contact-info">
                                 <label class="form-label" for="suggestions">Your suggestions</label><br>
